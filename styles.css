@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --dark-background: #1F2937;
+    --white-color: #F9FAF8;
+    --sec-color: #e5e7ebdb;
+    --blue-color: #3882F6;
+}
+
+.container {
+    background-color: var(--dark-background);
+    color: var(--white-color);
+    padding: 24px;
+    font-size: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Header */
+
+.header {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    margin-right: 8%;
+}
+
+.header ul li a {
+    color: var(--sec-color);
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 24px;
+}
+
+
+/* first section (front section) */
+
+.cont-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    padding: 8% 0;
+}
+
+.cont-1 img {
+    border: 5px solid var(--blue-color);
+    width: 50%;
+    height: 250px;
+    margin-right: 8%;
+}
+
+.frontContainer {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.frontContainer .title {
+    color: var(--white-color);
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.frontContainer .text {
+    color: var(--sec-color);
+    font-size: 18px;
+}
+
+.frontContainer .sign {
+    background-color: var(--blue-color);
+    width: 100px;
+    color: var(--white-color);
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.secondContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white-color);
+    padding: 48px;
+    flex-wrap: wrap;
+}
+
+.secondContainer h2 {
+    text-align: center;
+    font-size: 36px;
+    color: var(--dark-background);
+    font-weight: 800;
+}
+
+.cont-2 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 5px solid var(--blue-color);
+    border-radius: 16px;
+    margin: 12px 0;
+}
+
+.card p {
+    text-align: center;
+}
+
+.qouteCont {
+    background-color: var(--sec-color);
+    font-size: 36px;
+    font-style: italic;
+    color: var(--dark-background);
+    padding: 8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qouteCont q {
+    width: 80%;
+}
+
+.qouteCont p {
+    font-weight: 900;
+    font-size: 24px;
+    align-self: center;
+    margin-left: 50%;
+    font-style: normal;
+}
+
+footer {
+    background-color: var(--dark-background);
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    color: var(--white-color);
+}
+
+.lastSec {
+    display: flex;
+    justify-content: center;
+    background-color: var(--white-color);
+}
+
+.lastSec .signBtn {
+    background-color: var(--blue-color);
+    width: 15%;
+    font-weight: bold;
+    color: var(--white-color);
+    border-radius: 10px;
+    border: 3px solid var(--white-color);
+    font-size: 20px;
+}
+
+.popSign {
+    display: flex;
+    background-color: var(--blue-color);
+    justify-content: space-around;
+    padding: 50px 0;
+    width: 70%;
+    margin: 8%;
+    border-radius: 10px;
+}
+
+.lastFlex {
+    display: flex;
+    flex-direction: column;
+    color: var(--white-color);
+    line-height: 24px;
+}
+
+.lastFlex .signing {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.lastFlex .signText {
+    color: var(--sec-color);
+    font-size: 18px;
+}
